@@ -45,9 +45,30 @@ El proyecto utiliza el dataset de calidad de vinos, considerando atributos fisic
 
 La variable objetivo corresponde a la calidad (`quality`) del vino.
 
-### Estructura
+### Estructura del proyecto
 
-* `andrews.py`
-  * Generación y codificación de Curvas de Andrews.
-* `sublevel_persistence.py`
-  * Construcción de filtraciones y cálculo de persistencia.
+```
+final/
+├── apoyo/
+│   ├── andrews_red_vs_white.png
+│   ├── boxplots_calidad.png
+│   ├── orden_variables.png
+│   ├── ranking_atributos.png
+│   ├── sensibilidad_alcohol.png
+├── data/
+│   ├── orden_variables.csv
+│   ├── persistence_diagrams.csv
+│   ├── rankings_atributos.csv
+│   ├── winequality-red.csv
+│   ├── winequality-white.csv
+├── figures/
+│   ├── boxplots_calidad.png
+│   ├── orden_variables.png
+│   ├── ranking_atributos.png
+├── notebooks/
+│   ├── curvas_andrews.ipynb
+├── src/
+│   ├── andrews.py
+│   ├── sublevel_persistence.py
+└── README.md
+```
